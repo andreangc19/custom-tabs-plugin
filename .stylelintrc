@@ -3,24 +3,22 @@
   "plugins": [
     "stylelint-scss"
   ],
+  "ignoreFiles": [
+    "./includes/acf/**"
+  ],
   "rules": {
     "block-no-empty": null,
     "color-no-invalid-hex": true,
     "comment-empty-line-before": [ "always", {
       "ignore": ["stylelint-commands", "after-comment"]
     } ],
-    "declaration-colon-space-after": "always",
     "declaration-block-no-duplicate-properties": [ true, {
       "ignore": ["consecutive-duplicates"]
     }],
     "no-descending-specificity": null,
-    "block-opening-brace-space-before": "always-single-line",
-    "indentation": null,
-    "max-empty-lines": 2,
     "at-rule-no-unknown": null,
     "scss/at-rule-no-unknown": true,
     "rule-empty-line-before":null,
-    "selector-list-comma-newline-after": "always-multi-line",
     "unit-allowed-list": ["em", "rem", "%", "s", "px", "vh", "vw", "deg", "ms"],
     "no-invalid-position-at-import-rule": null
   }
