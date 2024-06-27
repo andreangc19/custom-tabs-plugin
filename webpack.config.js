@@ -2,10 +2,7 @@ const path = require('path'),
   MiniCssExtractPlugin = require('mini-css-extract-plugin'),
   CssMinimizerPlugin = require("css-minimizer-webpack-plugin"),
   BrowserSyncPlugin = require('browser-sync-webpack-plugin'),
-  StyleLintPlugin = require('stylelint-webpack-plugin'),
-  TerserPlugin = require("terser-webpack-plugin")
- 
-
+  StyleLintPlugin = require('stylelint-webpack-plugin')
 module.exports = {
   context: __dirname,
   entry: {
