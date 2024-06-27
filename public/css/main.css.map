@@ -1,0 +1,1 @@
+{"version":3,"file":"./css/main.css","mappings":";;;AAAA;EACI;AACJ,C","sources":["webpack://custom-tabs-plugin/./src/sass/style.scss"],"sourcesContent":[".mainClass{\r\n    font-size: 41px;\r\n}"],"names":[],"sourceRoot":""}
