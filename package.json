@@ -1,17 +1,37 @@
-
 {
   "name": "custom-tabs-plugin",
   "version": "0.1.0",
   "main": "Gruntfile.js",
-  "author": "YOUR NAME HERE",
-  "scripts" : {
-    "start" : "grunt default" ,
-    "readme" : "grunt readme",
-    "i18n" : "grunt i18n"
+  "author": "Andrea Guzman",
+  "scripts": {
+    "start": "grunt default",
+    "dev": "webpack --watch",
+    "readme": "grunt readme",
+    "i18n": "grunt i18n"
   },
   "devDependencies": {
-    "grunt": "~0.4.5",
-    "grunt-wp-i18n": "~0.5.0",
-    "grunt-wp-readme-to-markdown": "~1.0.0"
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/eslint-parser": "^7.24.7",
+    "@wordpress/eslint-plugin": "^19.2.0",
+    "@wordpress/stylelint-config": "^22.2.0",
+    "autoprefixer": "^10.4.19",
+    "babel-loader": "^9.1.3",
+    "browser-sync": "^3.0.2",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "css-minimizer-webpack-plugin": "^7.0.0",
+    "grunt": "^1.6.1",
+    "grunt-wp-i18n": "^1.0.3",
+    "grunt-wp-readme-to-markdown": "^2.1.0",
+    "mini-css-extract-plugin": "^2.9.0",
+    "postcss-loader": "^8.1.1",
+    "sass": "^1.77.6",
+    "stylelint": "^16.6.1",
+    "stylelint-config-recommended-scss": "^14.0.0",
+    "stylelint-scss": "^6.3.2",
+    "stylelint-webpack-plugin": "^5.0.1",
+    "terser-webpack-plugin": "^5.3.10",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
   }
 }
